@@ -7,8 +7,12 @@
 
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
-    border: 1px solid black;
     width: 100%;
+    z-index: 5;
+    transition: all 0.3s ease-out;
+}
+.navigationBar:hover{
+    background-color: #232325
 }
 .links li{
     display: inline-block;
@@ -24,10 +28,22 @@
 
     font-size: 150%;
     font-weight: bold;
-    color: #2c53ff;/*allazei to xrwma*/
+    color: whitesmoke;/*allazei to xrwma*/
 }
 .links .link {
     padding: 0.7% 6%;
     font-weight: bold;
     font-size: 150%;
+    color: whitesmoke; /*allazei xrwma*/
+}
+.main{
+    background-color: #2f89ff;
+    position: absolute;
+    width: 100%;
+    height: 969px;
+    top: 0%;
+    z-index: -1;
+}
+.space{
+    margin-top: 1000px;
 }
