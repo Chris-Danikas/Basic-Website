@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.navigationBar{
+    /*to border feugei mono katw mporei na valw*/
+    border: 1px solid black;
+    width: 100%;
+}
+.links li{
+    display: inline-block;
+    text-align: center;
+}
+.links .icon{
+    margin-left: 7%;
+}
+.links .name{
+    margin-left: 1%;
+    margin-right: 4%;
+    margin-top: 0.7%;
+
+    font-size: 150%;
+    font-weight: bold;
+    color: #2c53ff;/*allazei to xrwma*/
+}
+.links .link {
+    padding: 0.7% 6%;
+    font-weight: bold;
+    font-size: 150%;
+}
