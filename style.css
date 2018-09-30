@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 *{
     padding: 0;
     margin: 0;
@@ -53,11 +54,12 @@ body{
 }
 .bioContainer{
     position: relative;
-    border: black 1px solid; /*feugei*/
+    /*border: black 1px solid; feugei*/
     height: 500px;
+    border-bottom: 8px solid whitesmoke;
 }
 .profile , .bioContainer p{
-    border: black 1px solid; /*feugei*/
+    /*border: black 1px solid;feugei*/
     position: absolute;
 }
 .profile{
@@ -71,19 +73,29 @@ body{
     z-index: 2;
     background-size: 50%;
 }
-.bioContainer p {
+.bioContainer p{
     width: 50%;
     height: 20%;
     display: inline-block;
     right: 5%;
-    font-size: 500%;
+    font-size: 600%;
+    font-family: 'satisfy';
+}
+.bioContainer span{
+    font-family: 'Satisfy';
+}
+#small{
+    font-size: 50%;
 }
 .bioContainer p:nth-child(2){
     top: 5%;
+    right: 17%;
 }
 .bioContainer p:nth-child(3){
-    top: 40%;
+    top: 35%;
 }
 .bioContainer p:nth-child(4){
-    bottom: 0%;
+    bottom: 15%;
+    right: 10%;
+    font-size: 800%;
 }
