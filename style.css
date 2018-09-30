@@ -70,7 +70,7 @@ body{
     border-radius: 50%;
     border: 1px solid black;
     /*den exw idea ti skata exei*/
-    background: url("./images/#1TheBestDimension.jpg");
+    background: url("./images/#1TheBestDimension.jpg"); /*-------------not working---------------*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
