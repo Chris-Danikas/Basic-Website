@@ -8,15 +8,27 @@
 body{
     background-color: #757575
 }
-
+.navBarCont{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 913px;
+    z-index: 5;
+}
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
     width: 100%;
     z-index: 5;
     transition: all 0.3s ease-out;
+    position: absolute;
+    top: 0;
 }
 .navigationBar:hover{
     background-color: #232325
+}
+.sticky{
+    position: fixed;
+    top: 0;
 }
 .links li{
     display: inline-block;
@@ -50,7 +62,7 @@ body{
     border-bottom: 8px solid whitesmoke;
 }
 .space{
-    margin-top: 921px;
+    margin-top: 950px;
 }
 .bioContainer{
     position: relative;
