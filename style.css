@@ -4,6 +4,9 @@
     margin: 0;
     font-family: "Roboto";
 }
+body{
+    background-color: #757575
+}
 
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
@@ -43,7 +46,44 @@
     height: 969px;
     top: 0%;
     z-index: -1;
+    border-bottom: 8px solid whitesmoke;
 }
 .space{
-    margin-top: 1000px;
+    margin-top: 921px;
+}
+.bioContainer{
+    position: relative;
+    border: black 1px solid; /*feugei*/
+    height: 500px;
+}
+.profile , .bioContainer p{
+    border: black 1px solid; /*feugei*/
+    position: absolute;
+}
+.profile{
+    width: 400px;
+    height: 400px;
+    top: 10%;
+    left: 5%;
+    border-radius: 50%;
+    /*den exw idea ti skata exei*/
+    background-image: url(images/ahCY35k.jpg);
+    z-index: 2;
+    background-size: 50%;
+}
+.bioContainer p {
+    width: 50%;
+    height: 20%;
+    display: inline-block;
+    right: 5%;
+    font-size: 500%;
+}
+.bioContainer p:nth-child(2){
+    top: 5%;
+}
+.bioContainer p:nth-child(3){
+    top: 40%;
+}
+.bioContainer p:nth-child(4){
+    bottom: 0%;
 }
