@@ -68,9 +68,13 @@ body{
     top: 10%;
     left: 5%;
     border-radius: 50%;
+    border: 1px solid black;
     /*den exw idea ti skata exei*/
-    background-image: url(images/ahCY35k.jpg);
-    z-index: 2;
+    background: url("./images/#1TheBestDimension.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
     background-size: 50%;
 }
 .bioContainer p{
@@ -79,7 +83,7 @@ body{
     display: inline-block;
     right: 5%;
     font-size: 600%;
-    font-family: 'satisfy';
+    font-family: 'satisfy'; /*to allazw*/
 }
 .bioContainer span{
     font-family: 'Satisfy';
