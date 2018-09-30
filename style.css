@@ -68,14 +68,13 @@ body{
     top: 10%;
     left: 5%;
     border-radius: 50%;
-    border: 1px solid black;
     /*den exw idea ti skata exei*/
-    background: url("./images/#1TheBestDimension.jpg"); /*-------------not working---------------*/
+    background: url("./images/styl4.jpg"); /*-------------not working---------------*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 5;
-    background-size: 50%;
+    background-size: 120%;
 }
 .bioContainer p{
     width: 50%;
