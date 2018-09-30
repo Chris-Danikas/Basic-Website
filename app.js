@@ -1,8 +1,6 @@
 
-/*
 // When the user scrolls the page, execute stickyNavBarFunction;
 window.onscroll = function(){stickyNavBarFunction()};
-
 // Get the navbar
 var navbar = document.getElementById("navigationBarID");
 
@@ -18,5 +16,5 @@ function stickyNavBarFunction(){
     else{
         navbar.classList.remove("sticky");
     }
-}*/
+}
 console.log(navbar.offsetTop)

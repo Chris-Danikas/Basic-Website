@@ -11,17 +11,17 @@ body{
 .navBarCont{
     position: relative;
     width: 100%;
-    height: 100px;
-    top: 913px;
-    z-index: 5;
+    height: 969px;
+    z-index: 8;
 }
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
     width: 100%;
+    height: 50px;
     z-index: 5;
     transition: all 0.3s ease-out;
     position: absolute;
-    top: 0;
+    bottom: 0;
 }
 .navigationBar:hover{
     background-color: #232325
