@@ -21,9 +21,11 @@ body{
     border-bottom: 8px solid whitesmoke;
 }
 .mainBackground{
+    position: absolute;
     width: 100%;
+    height: 100%;
     border: 1px solid black; /*feugei*/
-    background-image: url("images/SITE-BACKGROUND.jpg") no-repeat center center fixed;
+    background-image: url(images/DANIKAS-STUDIOS-TEXT.png) no-repeat center center fixed;
     background-size: cover;
     z-index: 3;
 }
