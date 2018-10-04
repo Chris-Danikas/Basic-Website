@@ -23,8 +23,7 @@ body{
 .mainBackground{
     width: 100%;
     border: 1px solid black; /*feugei*/
-    background-image: url("images/SITE-BACKGROUND.jpg");
-    background-position: center;
+    background-image: url("images/SITE-BACKGROUND.jpg") no-repeat center center fixed;
     background-size: cover;
     z-index: 3;
 }
