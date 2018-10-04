@@ -18,3 +18,26 @@ function stickyNavBarFunction(){
     }
 }
 console.log(navbar.offsetTop)
+
+
+window.addEventListener("DOMContentLoaded", scrollLoop, false);
+
+var text = document.getElementById("Text");
+var trees = document.getElementById("Trees");
+
+var xScrollPosition;
+var yScrollPosition;
+
+function scrollLoop(e){
+    xScrollPosition = window.scrollX;
+    yScrollPosition = window.scrollY;
+
+    setTranslate(0, yScrollPosition * -4, text);
+    setTranslate(0, yScrollPosition * 0.5, trees);
+
+    requestAnimationFrame(scrollLoop);
+}
+
+function setTranslate(xPos, yPos, el){
+    el.style.transform = "translate3d(" + xPos + ", " + yPos + "px, 0)";
+}
