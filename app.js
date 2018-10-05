@@ -24,6 +24,7 @@ window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
 var text = document.getElementById("Text");
 var trees = document.getElementById("Trees");
+var me = document.getElementById("me");
 
 var xScrollPosition;
 var yScrollPosition;
@@ -33,7 +34,8 @@ function scrollLoop(e){
     yScrollPosition = window.scrollY;
 
     setTranslate(0, yScrollPosition * -4, text);
-    setTranslate(0, yScrollPosition * 0.5, trees);
+    setTranslate(0, yScrollPosition * 0.2, trees);
+    setTranslate(0, yScrollPosition * 0.7, me);
 
     requestAnimationFrame(scrollLoop);
 }
