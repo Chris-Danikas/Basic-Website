@@ -61,7 +61,7 @@ body{
     bottom: 0;
 }
 .navigationBar:hover{
-    background-color: #232325
+    background-color: #6c268a
 }
 .sticky{
     position: fixed;
