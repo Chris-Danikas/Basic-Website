@@ -51,6 +51,13 @@ body{
     background-size: cover;
     z-index: 2;
 }
+/*for responsive design*/
+@media screen and (max-width: 1000px){
+    .mainBackground{
+        background-size: 200%;
+    }
+}
+
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
     width: 100%;
