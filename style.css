@@ -52,7 +52,7 @@ body{
     background-size: cover;
     z-index: 2;
 }
-/*for responsive design*/     /*-------------------WTF-----is landscaper- and is it essential?*/
+/*for responsive design*/     /*-----is screen necessary?--WTF-----is landscaper- and is it essential?*/
 @media (min-width: 768px) and (max-width: 1140px) {
     .danikasStudiosText{
         background-size: 1150px;
@@ -91,9 +91,14 @@ body{
     position: fixed;
     top: 0;
 }
-.links li{
+.links a{
     display: inline-block;
     text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.links a:hover{
+    background-color: #3d144e
 }
 .links .name{
     margin-left: 5%;
