@@ -16,13 +16,14 @@ body{
 }
 .main{
     width: 100%;
-    height: 969px;  /*THERE IS  PROBLEM WITH THIS ONE */
+    height: 100vh;  /*THERE IS  PROBLEM WITH THIS ONE (pxls)*/
     z-index: -1;
 }
 .danikasStudiosText{
     position: fixed;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
     background: url("images/DANIKAS-STUDIOS-TEXT.png") no-repeat center center;
     background-size: cover;
     z-index: 4;
@@ -51,11 +52,29 @@ body{
     background-size: cover;
     z-index: 2;
 }
-/*for responsive design*/
-@media (min-width: 768px) and (max-width: 1024px) {
+/*for responsive design*/     /*-------------------WTF-----is landscaper- and is it essential?*/
+@media (min-width: 768px) and (max-width: 1140px) {
+    .danikasStudiosText{
+        background-size: 1150px;
+        background-position-y: 15%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .danikasStudiosText{
+        background-size: 850px;
+        background-position-y: 25%;
+    }
+    .me{
+        background-size: 1500px;
+        background-position-y: 100%;
+    }
+    .palmTrees{
+        background-size: 1500px;
+        background-position-y: 100%;
+    }
+
 
 }
-
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
     width: 100%;
