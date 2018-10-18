@@ -58,6 +58,16 @@ body{
         background-size: 1150px;
         background-position-y: 15%;
     }
+    .navigationBar .links a:not(:first-child){display: none;}
+    .navigationBar .links a.icon {
+        float: right;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: url(images/menu-512.png) no-repeat center center;
+        background-size: 200%;
+        margin-right: 40px;
+    }
 }
 @media (min-width: 481px) and (max-width: 767px){
     .danikasStudiosText{
@@ -72,9 +82,9 @@ body{
         background-size: 1500px;
         background-position-y: 100%;
     }
-
-
 }
+
+
 .navigationBar{
     /*to border feugei mono katw mporei na valw*/
     width: 100%;
@@ -84,21 +94,22 @@ body{
     position: absolute;
     bottom: 0;
 }
+.responsive{
+    float: none;
+    display: block;
+}
 .navigationBar:hover{
-    background-color: #6c268a
+    background-color: #6c268a;
 }
 .sticky{
     position: fixed;
     top: 0;
 }
-.links a{
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
+.icon{
+    display: none;
 }
-.links a:hover{
-    background-color: #3d144e
+.link:hover{
+    background-color: #3d144e;
 }
 .links .name{
     margin-left: 5%;
@@ -113,12 +124,18 @@ body{
 .link:nth-child(2){
     margin-left: 19%;
 }
-.links .link {
+.link {
     padding: 1% 6%;
     font-weight: bold;
     font-size: 150%;
     color: whitesmoke; /*allazei xrwma*/
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
+
+
 .space{
     margin-top: 950px;
 }

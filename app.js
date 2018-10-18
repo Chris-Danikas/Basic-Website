@@ -43,3 +43,19 @@ function scrollLoop(e){
 function setTranslate(xPos, yPos, el){
     el.style.transform = "translate3d(" + xPos + ", " + yPos + "px, 0)";
 }
+
+// trying to make the menu responsive
+function navigationResponsive(){
+    var x = document.getElementById("linksID").children;
+    for( i=0; i<x.length; i++){
+        if (x[i].className === "link"){
+            x[i].className += " responsive";
+        }
+        else if(x[i].className === "name" || x[i].className==="icon"){
+            x[i].className === x[i].className;
+        }
+        else{
+            x[i].className = "link";
+        }
+    }
+}
