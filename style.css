@@ -58,7 +58,10 @@ body{
         background-size: 1150px;
         background-position-y: 15%;
     }
-    .navigationBar .links a:not(:first-child){display: none;}
+
+    .navigationBar .link{
+        display: none;
+    }
     .navigationBar .links a.icon {
         float: right;
         display: block;
@@ -68,6 +71,7 @@ body{
         background-size: 200%;
         margin-right: 40px;
     }
+
 }
 @media (min-width: 481px) and (max-width: 767px){
     .danikasStudiosText{
@@ -82,6 +86,15 @@ body{
         background-size: 1500px;
         background-position-y: 100%;
     }
+    .navigationBar .links a.icon {
+        float: right;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: url(images/menu-512.png) no-repeat center center;
+        background-size: 200%;
+        margin-right: 40px;
+    }
 }
 
 
@@ -95,8 +108,9 @@ body{
     bottom: 0;
 }
 .responsive{
-    float: none;
     display: block;
+    width: 100%;
+    background-color: #6c268a;
 }
 .navigationBar:hover{
     background-color: #6c268a;
@@ -106,7 +120,7 @@ body{
     top: 0;
 }
 .icon{
-    display: none;
+    display: block;
 }
 .link:hover{
     background-color: #3d144e;

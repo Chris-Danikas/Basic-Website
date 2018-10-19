@@ -51,11 +51,20 @@ function navigationResponsive(){
         if (x[i].className === "link"){
             x[i].className += " responsive";
         }
-        else if(x[i].className === "name" || x[i].className==="icon"){
+        else if(x[i].className === "icon"){
             x[i].className === x[i].className;
+        }
+        else if(x[i].className === "name"){
+            x[i].className += " responsive"; //there is a problem here and I don't know why
+            console.log(x[i].className);
+        }
+        else if(x[i].className === "name responsive"){
+            x[i].className === " name";
+            console.log(x[i].className); //there is a problem here and I don't know why
         }
         else{
             x[i].className = "link";
         }
     }
 }
+
