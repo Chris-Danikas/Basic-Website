@@ -58,20 +58,6 @@ body{
         background-size: 1150px;
         background-position-y: 15%;
     }
-
-    .navigationBar .link{
-        display: none;
-    }
-    .navigationBar .links a.icon {
-        float: right;
-        display: block;
-        width: 50px;
-        height: 50px;
-        background: url(images/menu-512.png) no-repeat center center;
-        background-size: 200%;
-        margin-right: 40px;
-    }
-
 }
 @media (min-width: 481px) and (max-width: 767px){
     .danikasStudiosText{
@@ -84,16 +70,7 @@ body{
     }
     .palmTrees{
         background-size: 1500px;
-        background-position-y: 100%;
-    }
-    .navigationBar .links a.icon {
-        float: right;
-        display: block;
-        width: 50px;
-        height: 50px;
-        background: url(images/menu-512.png) no-repeat center center;
-        background-size: 200%;
-        margin-right: 40px;
+        background-position-y: 100%;    /*EXEI PROVLHMA TO NAVIGATIONBAR*/
     }
 }
 
@@ -107,11 +84,6 @@ body{
     position: absolute;
     bottom: 0;
 }
-.responsive{
-    display: block;
-    width: 100%;
-    background-color: #6c268a;
-}
 .navigationBar:hover{
     background-color: #6c268a;
 }
@@ -119,21 +91,13 @@ body{
     position: fixed;
     top: 0;
 }
-.icon{
-    display: block;
-}
-.link:hover{
-    background-color: #3d144e;
-}
-.links .name{
-    margin-left: 5%;
-    margin-right: 4%;
-    margin-top: 1%;
-    position: absolute;
-    width: 200px;
+.name{
+    margin: 0 auto;
+    width: 90%;
     height: 100px;
-    background: url("images/DANIKAS-STUDIOS-TEXT.png") no-repeat center center;
-    background-size: cover;
+    padding: 5%;
+    background: url("images/DANIKAS-STUDIOS-TEXT.png") no-repeat center 20%;
+    background-size: 500px;
 }
 .link:nth-child(2){
     margin-left: 19%;
