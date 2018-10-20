@@ -109,11 +109,11 @@ body{
     position: relative;
     /*border: black 1px solid; feugei*/
     height: 500px;
-    border-top: 8px solid whitesmoke;
-    border-bottom: 8px solid whitesmoke;
+    border-top: 8px solid white;
+    border-bottom: 8px solid white;
     z-index: 6;
-    background-color: #00306e /*allazei mallon se kati me ena background-image*/
-    
+    background: url("images/1PortraitV3-GIATOWEBSITE2.jpg") no-repeat center center fixed;  /*allazei mallon se kati me ena background-image*/
+    background-size: cover;
 }
 .profile{
     width: 400px;
@@ -129,17 +129,48 @@ body{
     margin: 2% 5%;
     border: 2px solid whitesmoke;
     display: inline-block;
-    box-shadow: 1px 1px 10px #371247;
+    box-shadow: 1px 1px 10px black;
 }
 .bio{
+    width: 50%;
     position: absolute;
     display: inline-block;
     font-size: 400%;
-    color: #a13ccc;
-    text-shadow: 2px 2px 3px #371247;    
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px black;    
 }
 .F{
     right: 10%;
-    top: 12%;
+    top: 20%;
+
+}
+@media (min-width: 768px) and (max-width: 1140px){
+    .profile{
+        width: 300px;
+        height: 300px;
+        margin: 8% 2%;
+    }
+    .bio{
+        font-size: 300%;
+        width: 50%;
+        top: 20%;
+        right: 5%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .bioContainer{
+        height: 350px;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        margin: 10% 2%;
+    }
+    .bio{
+        font-size: 250%;
+        width: 50%;
+        right: 8%;
+        top: 30%;
+    }
 
 }
