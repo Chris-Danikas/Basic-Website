@@ -112,17 +112,12 @@ body{
     border-top: 8px solid whitesmoke;
     border-bottom: 8px solid whitesmoke;
     z-index: 6;
-    background-color: #525252;
-}
-.profile , .bioContainer p{
-    /*border: black 1px solid;feugei*/
-    position: absolute;
+    background-color: #00306e /*allazei mallon se kati me ena background-image*/
+    
 }
 .profile{
     width: 400px;
     height: 400px;
-    top: 10%;
-    left: 5%;
     border-radius: 50%;
     /*den exw idea ti skata exei*/
     background: url("./images/styl4.jpg");
@@ -131,30 +126,20 @@ body{
     background-size: cover;
     z-index: 5;
     background-size: 120%;
-}
-.bioContainer p{
-    width: 50%;
-    height: 20%;
+    margin: 2% 5%;
+    border: 2px solid whitesmoke;
     display: inline-block;
-    right: 5%;
-    font-size: 600%;
-    font-family: 'Parisienne'; /*to allazw*/
+    box-shadow: 1px 1px 10px #371247;
 }
-.bioContainer span{
-    font-family: 'Parisienne';
+.bio{
+    position: absolute;
+    display: inline-block;
+    font-size: 400%;
+    color: #a13ccc;
+    text-shadow: 2px 2px 3px #371247;    
 }
-#small{
-    font-size: 50%;
-}
-.bioContainer p:nth-child(2){
-    top: 5%;
-    right: 17%;
-}
-.bioContainer p:nth-child(3){
-    top: 35%;
-}
-.bioContainer p:nth-child(4){
-    bottom: 15%;
+.F{
     right: 10%;
-    font-size: 800%;
+    top: 12%;
+
 }
