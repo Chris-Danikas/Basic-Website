@@ -102,9 +102,7 @@ body{
     background-size: 500px;
 }
 /*allazei olo panw katw apo edw kai pera*/
-.space{
-    margin-top: 950px;
-}
+
 .bioContainer{
     position: relative;
     /*border: black 1px solid; feugei*/
@@ -173,4 +171,22 @@ body{
         top: 30%;
     }
 
+}
+
+.flexCont{
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.gallery{
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+    width: 70%;
+    height: 200px;
+    z-index: 6;
+    background-color: rgba(43, 78, 192, 0.644)
 }
